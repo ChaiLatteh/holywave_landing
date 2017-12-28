@@ -39,6 +39,7 @@
       }
 
       #wrapper{
+        /* margin-top:20px; */
         background:-webkit-linear-gradient(to bottom, #ededed, white 5%);
         background:linear-gradient(to bottom, #ededed, white 5%);
         height:100%;
@@ -139,11 +140,14 @@
         }
       }
       @media screen and (max-width:600px){
+        html, body{
+          height:105%;
+        }
         img{
           height:40px;
         }
         #info h1{
-          width:90%;
+          width:85%;
           font-size:38px;
           letter-spacing:6px;
         }
