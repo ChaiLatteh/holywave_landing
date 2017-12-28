@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Index</title>
+    <title>HolyWave Ministry</title>
 
     <!-- Page contents stretch according to device width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,6 +39,7 @@
       }
 
       #wrapper{
+        background:-webkit-linear-gradient(to bottom, #ededed, white 5%);
         background:linear-gradient(to bottom, #ededed, white 5%);
         height:100%;
         text-align:center;
@@ -64,7 +65,7 @@
         margin:50px 0px 50px 0px;
       }
       #info h2{
-        font-size:24px;
+        font-size:20px;
         line-height:30px;
         margin:0px 0px 10px 0px;
       }
@@ -79,7 +80,7 @@
       }
 
       button{
-        font-size:18px;
+        font-size:16px;
         transition:0.25s ease-in-out;
         padding:5px 20px;
         background-color:transparent;
@@ -90,7 +91,6 @@
       button:hover{
         transition:0.25s ease-in-out;
         color:white;
-        /* background-color:#19528a; */
         background-color:#2d8ccc;
       }
       #buttons a{
@@ -102,8 +102,17 @@
         margin-right:10px;
       }
       @media screen and (max-width:1440px){
+        img{
+          height:38px;
+          margin-bottom:40px;
+        }
         #info h1{
-          font-size:50px;
+          font-size:48px;
+          line-height:60px;
+        }
+        #info h3{
+          margin-top:40px;
+          margin-bottom:40px;
         }
       }
 
@@ -113,14 +122,14 @@
           padding-right:10%;
         }
         #info h2{
-          font-size:20px;
+          font-size:18px;
         }
       }
 
       @media screen and (max-width:768px){
         #info h1{
           width:80%;
-          font-size:45px;
+          font-size:43px;
         }
         #info h3{
           font-size:16px;
@@ -135,7 +144,8 @@
         }
         #info h1{
           width:90%;
-          font-size:40px;
+          font-size:38px;
+          letter-spacing:6px;
         }
         #info h2{
           font-size:18px;
@@ -144,6 +154,7 @@
       }
       @media screen and (max-width:425px){
         img{
+          height:30px;
           margin-bottom:30px;
         }
         #info{
@@ -151,7 +162,7 @@
         }
         #info h1{
           width:100%;
-          font-size:36px;
+          font-size:34px;
           line-height:50px;
         }
         #info h3{
@@ -167,13 +178,13 @@
       }
       @media screen and (max-width:375px){
         #info h1{
-          font-size:34px;
+          font-size:32px;
         }
       }
       @media screen and (max-width:320px){
         #info h1{
           width:70%;
-          font-size:32px;
+          font-size:30px;
           line-height:normal;
         }
         #info h2{
@@ -196,8 +207,13 @@
           <div id="info">
             <h1>NEW WEBSITE COMING SOON</h1>
             <h3>HolyWave is the English-speaking ministry of Sa-Rang Community Church</h3>
-            <h2>Sunday Service Times:<br>9:10 AM, 11:10 AM</h2>
-            <h2>1900 W. Crescent Avenue<br>Anaheim, CA 92801</h2>
+
+            <div style="display:inline-block; margin-left:25px; margin-right:25px;">
+              <h2>Sunday Service Times:<br>9:10 AM, 11:10 AM</h2>
+            </div>
+            <div style="display:inline-block; margin-left:25px; margin-right:25px;">
+              <h2>1900 W. Crescent Avenue<br>Anaheim, CA 92801</h2>
+            </div>
             <h2><a href="mailto:holywave@sarang.com">holywave@sarang.com</a></h2>
           </div>
 
